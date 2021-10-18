@@ -1,2 +1,0 @@
-name,model_type,metric_type,metric_value,train_time,single_prediction_time
-1_Default_LightGBM,LightGBM,logloss,1.0003177579750587e-06,5250.07,0.0483
