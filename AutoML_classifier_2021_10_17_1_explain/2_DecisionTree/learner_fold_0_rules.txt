@@ -1,0 +1,16 @@
+if (flag > 5.5) and (level > 17.5) and (count <= 324.5) then class: 0 (proba: 96.14%) | based on 48,237 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate <= 0.615) and (service > 1.5) then class: 1 (proba: 99.47%) | based on 35,037 samples
+
+if (flag > 5.5) and (level <= 17.5) and (dst_host_serror_rate <= 0.235) then class: 1 (proba: 83.63%) | based on 6,812 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate > 0.615) and (level > 15.5) then class: 0 (proba: 96.81%) | based on 2,323 samples
+
+if (flag > 5.5) and (level > 17.5) and (count > 324.5) then class: 1 (proba: 99.69%) | based on 1,290 samples
+
+if (flag > 5.5) and (level <= 17.5) and (dst_host_serror_rate > 0.235) then class: 0 (proba: 90.84%) | based on 502 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate > 0.615) and (level <= 15.5) then class: 1 (proba: 89.63%) | based on 164 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate <= 0.615) and (service <= 1.5) then class: 0 (proba: 94.74%) | based on 114 samples
+
