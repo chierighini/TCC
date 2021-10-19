@@ -1,0 +1,645 @@
+{
+    "uid": "f00afbf1-4461-4ae1-88ca-f8862d7574b7",
+    "name": "10_LightGBM_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1747247542
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1760886117
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "multiply",
+                        "score": 0.1767425454
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "ratio",
+                        "score": 0.1767566504
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.199806562
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "ratio",
+                        "score": 0.2018415058
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "sum",
+                        "score": 0.2027987328
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "multiply",
+                        "score": 0.2055209095
+                    },
+                    {
+                        "feature1": "diff_srv_rate",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.2588516806
+                    },
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "service",
+                        "operation": "ratio",
+                        "score": 0.2597082881
+                    }
+                ],
+                "new_columns": [
+                    "same_srv_rate_ratio_level",
+                    "flag_ratio_level",
+                    "level_multiply_same_srv_rate",
+                    "level_ratio_flag",
+                    "flag_diff_level",
+                    "level_ratio_same_srv_rate",
+                    "level_sum_flag",
+                    "level_multiply_flag",
+                    "diff_srv_rate_diff_level",
+                    "same_srv_rate_ratio_service"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_classifier_Perform_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1747247542
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1760886117
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "multiply",
+                        "score": 0.1767425454
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "ratio",
+                        "score": 0.1767566504
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.199806562
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "ratio",
+                        "score": 0.2018415058
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "sum",
+                        "score": 0.2027987328
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "multiply",
+                        "score": 0.2055209095
+                    },
+                    {
+                        "feature1": "diff_srv_rate",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.2588516806
+                    },
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "service",
+                        "operation": "ratio",
+                        "score": 0.2597082881
+                    }
+                ],
+                "new_columns": [
+                    "same_srv_rate_ratio_level",
+                    "flag_ratio_level",
+                    "level_multiply_same_srv_rate",
+                    "level_ratio_flag",
+                    "flag_diff_level",
+                    "level_ratio_same_srv_rate",
+                    "level_sum_flag",
+                    "level_multiply_flag",
+                    "diff_srv_rate_diff_level",
+                    "same_srv_rate_ratio_service"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_classifier_Perform_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1747247542
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1760886117
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "multiply",
+                        "score": 0.1767425454
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "ratio",
+                        "score": 0.1767566504
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.199806562
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "ratio",
+                        "score": 0.2018415058
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "sum",
+                        "score": 0.2027987328
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "multiply",
+                        "score": 0.2055209095
+                    },
+                    {
+                        "feature1": "diff_srv_rate",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.2588516806
+                    },
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "service",
+                        "operation": "ratio",
+                        "score": 0.2597082881
+                    }
+                ],
+                "new_columns": [
+                    "same_srv_rate_ratio_level",
+                    "flag_ratio_level",
+                    "level_multiply_same_srv_rate",
+                    "level_ratio_flag",
+                    "flag_diff_level",
+                    "level_ratio_same_srv_rate",
+                    "level_sum_flag",
+                    "level_multiply_flag",
+                    "diff_srv_rate_diff_level",
+                    "same_srv_rate_ratio_service"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_classifier_Perform_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1747247542
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1760886117
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "multiply",
+                        "score": 0.1767425454
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "ratio",
+                        "score": 0.1767566504
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.199806562
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "ratio",
+                        "score": 0.2018415058
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "sum",
+                        "score": 0.2027987328
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "multiply",
+                        "score": 0.2055209095
+                    },
+                    {
+                        "feature1": "diff_srv_rate",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.2588516806
+                    },
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "service",
+                        "operation": "ratio",
+                        "score": 0.2597082881
+                    }
+                ],
+                "new_columns": [
+                    "same_srv_rate_ratio_level",
+                    "flag_ratio_level",
+                    "level_multiply_same_srv_rate",
+                    "level_ratio_flag",
+                    "flag_diff_level",
+                    "level_ratio_same_srv_rate",
+                    "level_sum_flag",
+                    "level_multiply_flag",
+                    "diff_srv_rate_diff_level",
+                    "same_srv_rate_ratio_service"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_classifier_Perform_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1747247542
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "ratio",
+                        "score": 0.1760886117
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "multiply",
+                        "score": 0.1767425454
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "ratio",
+                        "score": 0.1767566504
+                    },
+                    {
+                        "feature1": "flag",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.199806562
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "same_srv_rate",
+                        "operation": "ratio",
+                        "score": 0.2018415058
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "sum",
+                        "score": 0.2027987328
+                    },
+                    {
+                        "feature1": "level",
+                        "feature2": "flag",
+                        "operation": "multiply",
+                        "score": 0.2055209095
+                    },
+                    {
+                        "feature1": "diff_srv_rate",
+                        "feature2": "level",
+                        "operation": "diff",
+                        "score": 0.2588516806
+                    },
+                    {
+                        "feature1": "same_srv_rate",
+                        "feature2": "service",
+                        "operation": "ratio",
+                        "score": 0.2597082881
+                    }
+                ],
+                "new_columns": [
+                    "same_srv_rate_ratio_level",
+                    "flag_ratio_level",
+                    "level_multiply_same_srv_rate",
+                    "level_ratio_flag",
+                    "flag_diff_level",
+                    "level_ratio_same_srv_rate",
+                    "level_sum_flag",
+                    "level_multiply_flag",
+                    "diff_srv_rate_diff_level",
+                    "same_srv_rate_ratio_service"
+                ],
+                "ml_task": "binary_classification"
+            },
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification",
+                "golden_features": {
+                    "results_path": "AutoML_classifier_Perform_2",
+                    "ml_task": "binary_classification",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "226d37af-da6f-4a27-afa4-c2ad8df9b9ad",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "83140fa3-6033-4a22-8ed3-2e62d2a42d60",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "4ba17d27-c320-4480-b7a9-c923256d17fc",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "5b9958ac-1456-48c4-b514-d8788d048b2d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "3.2.1",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "35faeaf3-399e-4daf-9fbb-a104e1428e50",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "seed": 1236,
+                "objective": "binary",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 10,
+                "metric": "binary_logloss",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification",
+            "golden_features": {
+                "results_path": "AutoML_classifier_Perform_2",
+                "ml_task": "binary_classification",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 5,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_classifier_Perform_2/X.data",
+            "y_path": "AutoML_classifier_Perform_2/y.data",
+            "results_path": "AutoML_classifier_Perform_2"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "seed": 1236,
+            "objective": "binary",
+            "num_leaves": 63,
+            "learning_rate": 0.2,
+            "feature_fraction": 0.5,
+            "bagging_fraction": 1.0,
+            "min_data_in_leaf": 10,
+            "metric": "binary_logloss",
+            "custom_eval_metric_name": null,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 1,
+        "name": "10_LightGBM_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 72.0
+    },
+    "saved": [
+        "10_LightGBM_GoldenFeatures/learner_fold_0.lightgbm",
+        "10_LightGBM_GoldenFeatures/learner_fold_1.lightgbm",
+        "10_LightGBM_GoldenFeatures/learner_fold_2.lightgbm",
+        "10_LightGBM_GoldenFeatures/learner_fold_3.lightgbm",
+        "10_LightGBM_GoldenFeatures/learner_fold_4.lightgbm"
+    ],
+    "predictions_fname": "10_LightGBM_GoldenFeatures/predictions_out_of_folds.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.002919191841349612,
+    "train_time": 75.83134150505066,
+    "is_stacked": false,
+    "threshold": 0.5000001800193488,
+    "single_prediction_time": 0.04868602752685547
+}

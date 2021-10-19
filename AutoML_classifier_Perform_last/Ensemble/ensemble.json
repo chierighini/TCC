@@ -1,0 +1,45 @@
+{
+    "name": "Ensemble",
+    "ml_task": "binary_classification",
+    "optimize_metric": "logloss",
+    "selected_models": [
+        {
+            "model": "10_LightGBM",
+            "repeat": 1.0
+        },
+        {
+            "model": "13_CatBoost",
+            "repeat": 1.0
+        },
+        {
+            "model": "1_Default_LightGBM",
+            "repeat": 2.0
+        },
+        {
+            "model": "1_Default_LightGBM_GoldenFeatures",
+            "repeat": 5.0
+        },
+        {
+            "model": "20_LightGBM",
+            "repeat": 3.0
+        },
+        {
+            "model": "21_LightGBM",
+            "repeat": 2.0
+        },
+        {
+            "model": "6_Xgboost",
+            "repeat": 5.0
+        },
+        {
+            "model": "9_LightGBM",
+            "repeat": 3.0
+        }
+    ],
+    "predictions_fname": "Ensemble/predictions_ensemble.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.009849786207213072,
+    "train_time": 28.59339475631714,
+    "is_stacked": false,
+    "threshold": 0.500968191580165
+}

@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "same_srv_rate",
+            "feature2": "service",
+            "operation": "ratio",
+            "score": 0.2597082881
+        },
+        {
+            "feature1": "diff_srv_rate",
+            "feature2": "logged_in",
+            "operation": "diff",
+            "score": 0.27243162
+        },
+        {
+            "feature1": "dst_host_srv_count",
+            "feature2": "count",
+            "operation": "diff",
+            "score": 0.275805099
+        },
+        {
+            "feature1": "service",
+            "feature2": "same_srv_rate",
+            "operation": "multiply",
+            "score": 0.2771958036
+        },
+        {
+            "feature1": "dst_host_diff_srv_rate",
+            "feature2": "flag",
+            "operation": "diff",
+            "score": 0.281892738
+        },
+        {
+            "feature1": "dst_host_diff_srv_rate",
+            "feature2": "logged_in",
+            "operation": "diff",
+            "score": 0.2861730889
+        },
+        {
+            "feature1": "flag",
+            "feature2": "dst_host_count",
+            "operation": "ratio",
+            "score": 0.2882462631
+        },
+        {
+            "feature1": "dst_host_count",
+            "feature2": "flag",
+            "operation": "ratio",
+            "score": 0.2888319079
+        },
+        {
+            "feature1": "diff_srv_rate",
+            "feature2": "flag",
+            "operation": "diff",
+            "score": 0.2927924243
+        },
+        {
+            "feature1": "dst_host_count",
+            "feature2": "flag",
+            "operation": "sum",
+            "score": 0.2944716724
+        }
+    ],
+    "new_columns": [
+        "same_srv_rate_ratio_service",
+        "diff_srv_rate_diff_logged_in",
+        "dst_host_srv_count_diff_count",
+        "service_multiply_same_srv_rate",
+        "dst_host_diff_srv_rate_diff_flag",
+        "dst_host_diff_srv_rate_diff_logged_in",
+        "flag_ratio_dst_host_count",
+        "dst_host_count_ratio_flag",
+        "diff_srv_rate_diff_flag",
+        "dst_host_count_sum_flag"
+    ],
+    "ml_task": "binary_classification"
+}

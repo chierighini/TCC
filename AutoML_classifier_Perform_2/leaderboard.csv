@@ -1,0 +1,30 @@
+name,model_type,metric_type,metric_value,train_time,single_prediction_time
+1_Default_LightGBM,LightGBM,logloss,0.0027448895756775676,137.28,0.0309
+2_Default_Xgboost,Xgboost,logloss,0.0027920035679648812,89.63,0.0396
+3_Default_CatBoost,CatBoost,logloss,0.004292438367889451,44.94,0.0353
+5_Default_RandomForest,Random Forest,logloss,0.07864189498053283,51.61,0.0781
+9_LightGBM,LightGBM,logloss,0.002518866487293482,231.78,0.0315
+5_Xgboost,Xgboost,logloss,0.003060272368568752,97.49,0.0323
+13_CatBoost,CatBoost,logloss,0.003206732804872891,119.65,0.0368
+17_RandomForest,Random Forest,logloss,0.07543306155088961,36.09,0.087
+10_LightGBM,LightGBM,logloss,0.0026820827165181475,77.77,0.0312
+6_Xgboost,Xgboost,logloss,0.0027719392634542126,68.07,0.0316
+14_CatBoost,CatBoost,logloss,0.0036945026989663944,55.49,0.0357
+18_RandomForest,Random Forest,logloss,0.028524002561135988,54.4,0.0751
+11_LightGBM,LightGBM,logloss,0.002759571061850626,141.75,0.0302
+7_Xgboost,Xgboost,logloss,0.00455846616872098,119.89,0.0297
+15_CatBoost,CatBoost,logloss,0.003878618166183667,40.99,0.0347
+19_RandomForest,Random Forest,logloss,0.10510326545921213,57.26,0.1135
+12_LightGBM,LightGBM,logloss,0.0032400548412325598,149.44,0.0309
+8_Xgboost,Xgboost,logloss,0.008097561669869876,102.99,0.0324
+16_CatBoost,CatBoost,logloss,0.0036969410022936254,37.06,0.0348
+20_RandomForest,Random Forest,logloss,0.03644137707120568,36.36,0.0695
+9_LightGBM_GoldenFeatures,LightGBM,logloss,0.0026036957199426472,270.61,0.0488
+10_LightGBM_GoldenFeatures,LightGBM,logloss,0.002919191841349612,76.96,0.0487
+1_Default_LightGBM_GoldenFeatures,LightGBM,logloss,0.0029877076487959415,150.12,0.0488
+21_LightGBM,LightGBM,logloss,0.0025953793205296853,362.53,0.0306
+22_LightGBM,LightGBM,logloss,0.002514809100326152,219.27,0.0304
+23_LightGBM_GoldenFeatures,LightGBM,logloss,0.0026960117073149105,333.44,0.0493
+24_LightGBM_GoldenFeatures,LightGBM,logloss,0.0025889170825182132,244.54,0.049
+25_LightGBM,LightGBM,logloss,0.0025684356237426257,217.54,0.0317
+Ensemble,Ensemble,logloss,0.002384700706502892,34.69,0.2201

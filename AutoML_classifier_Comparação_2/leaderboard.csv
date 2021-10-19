@@ -1,0 +1,4 @@
+name,model_type,metric_type,metric_value,train_time
+1_Default_LightGBM,LightGBM,logloss,0.009671241699075952,60.83
+2_Default_RandomForest,Random Forest,logloss,0.10978014524572118,13.01
+Ensemble,Ensemble,logloss,0.009671241699075952,5.26

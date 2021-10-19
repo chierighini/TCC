@@ -1,0 +1,69 @@
+{
+    "columns": [
+        "same_srv_rate",
+        "dst_host_srv_count",
+        "dst_host_same_srv_rate",
+        "dst_host_srv_serror_rate",
+        "dst_host_serror_rate",
+        "serror_rate",
+        "dst_host_diff_srv_rate",
+        "diff_srv_rate",
+        "srv_diff_host_rate",
+        "service",
+        "flag",
+        "logged_in",
+        "srv_serror_rate",
+        "count",
+        "level",
+        "dst_host_count",
+        "srv_rerror_rate",
+        "dst_host_srv_rerror_rate",
+        "rerror_rate",
+        "dst_host_rerror_rate"
+    ],
+    "rows": 125973,
+    "cols": 20,
+    "target_is_numeric": true,
+    "columns_info": {
+        "same_srv_rate": [
+            "scale"
+        ],
+        "dst_host_srv_count": [
+            "scale"
+        ],
+        "dst_host_same_srv_rate": [
+            "scale"
+        ],
+        "dst_host_srv_serror_rate": [],
+        "dst_host_serror_rate": [],
+        "serror_rate": [],
+        "dst_host_diff_srv_rate": [],
+        "diff_srv_rate": [],
+        "srv_diff_host_rate": [],
+        "service": [
+            "scale"
+        ],
+        "flag": [
+            "scale"
+        ],
+        "logged_in": [],
+        "srv_serror_rate": [],
+        "count": [
+            "scale"
+        ],
+        "level": [
+            "scale"
+        ],
+        "dst_host_count": [
+            "scale"
+        ],
+        "srv_rerror_rate": [],
+        "dst_host_srv_rerror_rate": [],
+        "rerror_rate": [],
+        "dst_host_rerror_rate": []
+    },
+    "target_info": [],
+    "n_features": 20,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

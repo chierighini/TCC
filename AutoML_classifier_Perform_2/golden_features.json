@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "same_srv_rate",
+            "feature2": "level",
+            "operation": "ratio",
+            "score": 0.1747247542
+        },
+        {
+            "feature1": "flag",
+            "feature2": "level",
+            "operation": "ratio",
+            "score": 0.1760886117
+        },
+        {
+            "feature1": "level",
+            "feature2": "same_srv_rate",
+            "operation": "multiply",
+            "score": 0.1767425454
+        },
+        {
+            "feature1": "level",
+            "feature2": "flag",
+            "operation": "ratio",
+            "score": 0.1767566504
+        },
+        {
+            "feature1": "flag",
+            "feature2": "level",
+            "operation": "diff",
+            "score": 0.199806562
+        },
+        {
+            "feature1": "level",
+            "feature2": "same_srv_rate",
+            "operation": "ratio",
+            "score": 0.2018415058
+        },
+        {
+            "feature1": "level",
+            "feature2": "flag",
+            "operation": "sum",
+            "score": 0.2027987328
+        },
+        {
+            "feature1": "level",
+            "feature2": "flag",
+            "operation": "multiply",
+            "score": 0.2055209095
+        },
+        {
+            "feature1": "diff_srv_rate",
+            "feature2": "level",
+            "operation": "diff",
+            "score": 0.2588516806
+        },
+        {
+            "feature1": "same_srv_rate",
+            "feature2": "service",
+            "operation": "ratio",
+            "score": 0.2597082881
+        }
+    ],
+    "new_columns": [
+        "same_srv_rate_ratio_level",
+        "flag_ratio_level",
+        "level_multiply_same_srv_rate",
+        "level_ratio_flag",
+        "flag_diff_level",
+        "level_ratio_same_srv_rate",
+        "level_sum_flag",
+        "level_multiply_flag",
+        "diff_srv_rate_diff_level",
+        "same_srv_rate_ratio_service"
+    ],
+    "ml_task": "binary_classification"
+}
