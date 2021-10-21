@@ -1,0 +1,16 @@
+if (flag <= 5.5) and (dst_host_same_srv_rate <= 0.615) and (service > 1.5) then class: 1 (proba: 99.47%) | based on 35,037 samples
+
+if (flag > 5.5) and (logged_in > 0.5) and (dst_host_rerror_rate <= 0.005) then class: 0 (proba: 98.07%) | based on 33,650 samples
+
+if (flag > 5.5) and (logged_in <= 0.5) and (service > 12.5) then class: 1 (proba: 58.29%) | based on 12,771 samples
+
+if (flag > 5.5) and (logged_in <= 0.5) and (service <= 12.5) then class: 0 (proba: 99.73%) | based on 6,950 samples
+
+if (flag > 5.5) and (logged_in > 0.5) and (dst_host_rerror_rate > 0.005) then class: 0 (proba: 77.46%) | based on 3,470 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate > 0.615) and (dst_host_srv_serror_rate <= 0.035) then class: 0 (proba: 95.98%) | based on 2,315 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate > 0.615) and (dst_host_srv_serror_rate > 0.035) then class: 1 (proba: 74.42%) | based on 172 samples
+
+if (flag <= 5.5) and (dst_host_same_srv_rate <= 0.615) and (service <= 1.5) then class: 0 (proba: 94.74%) | based on 114 samples
+
